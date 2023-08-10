@@ -1,0 +1,72 @@
+header{
+    height: 32px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+
+}/*header left*/
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height: 14px;
+    padding: 0px 12px;
+}
+.youtube-logo{
+    height: 12px;
+}
+
+
+
+/* header middle*/
+.header-middle{
+    margin: 3px 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.search-box{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 11px;
+    
+}
+
+
+.search-box-button{
+    height: 24px;
+    width: 38px;
+}
+.voice-search-button{
+    
+    border: 1px solid black;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+.search-box-icon{
+    height: 14px;
+    padding: 5px;
+    
+}
+.search-with-voice{
+    height: 14px;
+    padding: 3px;
+}
+
+/* header right*/
+.header-right{
+    width: 150px;
+}
